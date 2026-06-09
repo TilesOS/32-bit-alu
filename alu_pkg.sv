@@ -1,6 +1,7 @@
 package alu_pkg;
 
     parameter int DATA_WIDTH = 32;
+    parameter int SHIFT_WIDTH = 5;
 
     typedef enum logic [3:0] {
         ALU_ADD,
