@@ -41,7 +41,6 @@ module alu_tb;
                 $display("Error test %0d: %-8s a=%h b=%h result=%h expected=%h",
                          tests, name, a, b, result, expected);
             end
-
     endtask
 
     initial begin
