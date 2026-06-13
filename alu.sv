@@ -1,6 +1,6 @@
-import alu_pkg::*;
-
-module alu (
+module alu
+    import alu_pkg::*;
+(
     input alu_op_t op,
     input logic [DATA_WIDTH-1:0] a,
     input logic [DATA_WIDTH-1:0] b,
